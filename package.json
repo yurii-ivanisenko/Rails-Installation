@@ -8,8 +8,7 @@
     "watch:css": "nodemon --watch ./app/assets/stylesheets/ --ext scss --exec \"yarn build:css\""
   },
   "engines": {
-    "node": "23.9.0",
-    "yarn": "1.22.19"
+    "node": "23.9.0"
   },
   "browserslist": [
     "defaults"

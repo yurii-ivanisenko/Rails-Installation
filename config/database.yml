@@ -16,9 +16,10 @@ test:
   timeout: 5000
 
 production:
-  <<: *default
-  url: <%= ENV['DATABASE_URL'] %>
+  primary:
+    <<: *default
+    url: <%= ENV["DATABASE_URL"] %>
 
   cable:
-    adapter: postgresql
-    url: <%= ENV['DATABASE_URL'] %>
+    <<: *default
+    url: <%= ENV["DATABASE_URL"] %>

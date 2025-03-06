@@ -11,6 +11,9 @@
     "node": "23.9.0",
     "yarn": "1.22.22"
   },
+  "dependencies": {
+    "sass": "^1.60.0"
+  },
   "browserslist": [
     "defaults"
   ]
